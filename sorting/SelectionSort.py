@@ -1,7 +1,6 @@
 import numpy as np
 
-lst_non_repetatice = list(np.random.choice(100, 10))
-print(lst_non_repetatice[0])
+lst_non_repetative = list(np.random.choice(100, 10))
 def selection_sort(lst):
     for x in range(len(lst)):
         low = x
